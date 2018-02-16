@@ -11,10 +11,10 @@ public class TesteConta {
 	public static void main(String[] args) {
 		
 		Conta conta = new Conta();
-		conta.setTitular("Anderson");
+		conta.setTitular("Fábio");
 		conta.setBanco("Banco do Brasil");
 		conta.setAgencia("1234");
-		conta.setNumero("456");
+		conta.setNumero("455");
 		
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory("financas");
 		EntityManager em = emf.createEntityManager();
